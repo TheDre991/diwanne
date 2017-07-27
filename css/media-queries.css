@@ -1,0 +1,111 @@
+@media only screen and (max-width:640px) {
+
+	#services div {
+		width: 100%;
+	}
+
+	.desc {
+		display: none;
+	}
+	
+	.title {
+		width: 100%;	
+	}
+
+	.job-offer{
+		padding: 15px;
+	}
+
+	.job-apply {
+		display: none;
+	}
+
+	.job-desc {
+		width: 100%;	
+	}
+	
+	#locations{
+		padding-left: 0;
+	}
+
+	#locations div{
+		width: 100%;
+		padding: 20px 50px;
+	}
+ 
+ 	footer #contact-info-2, #rights {
+ 		display: none;
+ 	}
+
+ 	footer {
+ 		padding: 20px 20px;
+ 	}	
+
+ 	#contact-info-1 {
+		display: inline-block;
+		text-align: center;
+	}
+
+	#contact-info-1 img {
+		margin: 0 5%;
+	}
+
+	#contact-info-1 h5 {
+		display: inline;
+	}
+}
+
+
+@media only screen and (max-width:1024px) { 
+    
+    .logo-section {
+        float: none;
+    }
+
+    nav {
+		padding: 40px 0 0 0;		
+    }
+
+    nav ul {
+        background: rgba(37, 35, 34, 0.98);      
+        max-height: 0;
+        width: 100%;
+    }
+    nav ul.show {
+    	position: absolute;
+        max-height: 800px;
+        padding-top: 130px;     
+    }
+
+    nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 30px;
+    }
+    
+    nav ul li a {
+ 		color: #ccc;
+ 		font-size: 22px;
+    	font-weight: normal;
+
+    }
+
+    .hb-button {
+        display: inline;
+    }
+
+    .logo-section {
+    	padding-left: 50px;
+    	padding-right: 50px;
+    	padding-bottom: 20px;
+    }
+
+	.follow {
+		display: block;
+		text-align: left;
+		color: #888;
+		font-size: 18px;
+		padding-left: 20px;
+		padding-top: 100px;	
+	}
+}
